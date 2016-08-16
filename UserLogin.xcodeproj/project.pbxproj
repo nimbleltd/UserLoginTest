@@ -15,6 +15,7 @@
 		A99EE4531D629D05004FF6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99EE4511D629D05004FF6AF /* LaunchScreen.storyboard */; };
 		A99EE45E1D629D05004FF6AF /* UserLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99EE45D1D629D05004FF6AF /* UserLoginTests.swift */; };
 		A99EE4691D629D05004FF6AF /* UserLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99EE4681D629D05004FF6AF /* UserLoginUITests.swift */; };
+		A99EE4771D629D6E004FF6AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A99EE4761D629D6E004FF6AF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A99EE4641D629D05004FF6AF /* UserLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99EE4681D629D05004FF6AF /* UserLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginUITests.swift; sourceTree = "<group>"; };
 		A99EE46A1D629D05004FF6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99EE4761D629D6E004FF6AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				A99EE4451D629D05004FF6AF /* AppDelegate.swift */,
+				A99EE4761D629D6E004FF6AF /* GoogleService-Info.plist */,
 				A99EE4471D629D05004FF6AF /* ViewController.swift */,
 				A99EE4491D629D05004FF6AF /* Main.storyboard */,
 				A99EE44F1D629D05004FF6AF /* Assets.xcassets */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99EE4531D629D05004FF6AF /* LaunchScreen.storyboard in Resources */,
+				A99EE4771D629D6E004FF6AF /* GoogleService-Info.plist in Resources */,
 				A99EE4501D629D05004FF6AF /* Assets.xcassets in Resources */,
 				A99EE44B1D629D05004FF6AF /* Main.storyboard in Resources */,
 			);
